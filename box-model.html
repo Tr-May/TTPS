@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS : Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      .box {
+        width: 100px;
+        height: 100px;
+        /* border: width style color; */
+        border: 5px solid black ;
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+      .bg-red {
+        background-color: red;
+      }
+      .bg-orange {
+        background-color: orange;
+      }
+      a {
+        background-color: skyblue;
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        /* padding: 5px; */
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-radius:8px;
+      }
+      /* display: none, block, inline, inline-block */
+    </style>
+  </head>
+  <body>
+    <h1>CSS : Box Model</h1>
+    <div class="box bg-red">box model</div>
+    <div class="box bg-orange">box model</div>
+    <a href="#">link</a>
+    <a href="#">More link</a>
+  </body>
+</html>

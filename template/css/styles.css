@@ -1,0 +1,16 @@
+*{
+    font-style: italic;
+}
+h1{
+    color: #FF7E73;
+}
+#navigation{
+    background-color:darkorange;
+}
+.fw-bold{
+    font-weight: bold;
+}
+[href='#']{
+    color: black;
+    font-weight: bold;
+}

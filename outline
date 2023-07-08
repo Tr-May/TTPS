@@ -1,0 +1,98 @@
+html => structure of a webpage
+css => design and layout of a webpage
+javascript => behavior of a webpage
+
+html
+    - hypertext markup language
+    - predefined-tags / element
+    - head
+    - body
+
+xml - extensible markup language
+<h1 align='center'>heading</h1>
+<student rno='1' name='may' address='ygn'></student>
+
+JSON
+student{
+    'rno':'1',
+    'name':'may',
+    'address':'ygn',
+}
+====================================================
+html elements | attributes | properties
+1. heading elements
+    - h1(largest size) - h6 (smallest size) => h1,h2,h3,h4
+        - align : left(default), right, center
+2. Paragraph elements
+    - p 
+        - align : left(default), right, center,justify
+3. Image elements
+    - img
+        - src : path of the image
+        - alt : the description of the image which works when the image is not being loaded
+    -favicon
+4. List elements
+    - ol
+        - li => list item        
+    - ul
+        - li => list item
+    - dl
+        - li => list item
+5. table element
+6. anchor element
+
+template
+- index.html | default.html | home.html
+
+
+
+Universal Design => everywhere, everyone
+
+
+css - cascading stylesheet
+    - for the design and layout of a webpage
+    - place of css in the file
+        - inline stylesheet
+        - internal stylesheet
+        - external stylesheet
+    - structor of stylesheet rule
+    selector {
+        property:value;
+        delcration2;
+        delcration3;
+        delcration4;
+        .
+        .
+        .
+        delcaration n;
+    }
+    - selector => html elements, ids, class, attributes
+    - delcaration => property:value
+    - property => html element's attributes
+    - value => html attributes' values
+
+    basic stylesheet rule
+    background-color : color name, color hexa code, color rgb function;
+    color :  color name, color hexa code, color rgb function;
+
+    => font-style : normal, italic, oblique
+    => font-weight : normal, bold, bolder, 100,200, ....900
+    => text-decoration : none, overline, underline, line-through
+
+    id => identification (unique)
+
+
+box model => width, height, border, margin
+margin : the distance between the two elements 
+margin-top, right, bottom, left 
+margin: 40px; // all sides
+marign: 10px 20px; // t,b l,r 
+margin: 10px 15px 20px; // t l,r b 
+margin: 10px 15px 20px 25px;// t r b l => clockwise
+
+padding : the distance between the content and the border of an element
+padding-top, right, bottom, left 
+padding: 40px; // all sides
+padding: 10px 20px; // t,b l,r 
+padding: 10px 15px 20px; // t l,r b 
+padding: 10px 15px 20px 25px;// t r b l => clockwise
