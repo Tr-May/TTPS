@@ -96,3 +96,32 @@ padding: 40px; // all sides
 padding: 10px 20px; // t,b l,r 
 padding: 10px 15px 20px; // t l,r b 
 padding: 10px 15px 20px 25px;// t r b l => clockwise
+
+
+font properties => typography
+font families/ group
+1. serif => stroke
+2. sans-serif => 
+3. monospace => one space / fix-width font 
+4. display => handwriting 
+5. fantasy =>
+
+color => name, hexa code, rgb()
+color system => rgb, cmyk 
+rgb => red, green, blue => screen dispaly 
+cmyk => cyan, magenta, yellow, black => printed display 
+background-color, color 
+hexa code => #rrggbb
+#000000 => black => #000
+#ff0000 => red => #f00
+#00ff00 => green => #0f0
+#0000ff => blue => #00f
+#ffffff => white => #fff
+#ffabdd => 
+
+rgb(0-255,0-255,0-255)
+red : rgb(255,0,0)
+green
+blue
+black
+white
