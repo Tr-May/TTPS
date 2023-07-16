@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float with layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header,footer{
+            background-color: yellow;
+            padding: 20px;
+            text-align: center;
+        }
+        section.content{
+            height: 200px;
+        }
+        section.left{
+            width: 30%;
+            background-color: darkkhaki;
+            float: left;
+            height: inherit;
+        }
+        section.right{
+            width: 70%;
+            background-color:coral;
+            float: right;
+            height: inherit;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>this is header section</header>
+      <section class="content">
+        <section class="left">left section</section>
+        <section class="right">right section</section>
+      </section>
+      <footer>copyright &copy; 2023.</footer>
+    </div>
+  </body>
+</html>
